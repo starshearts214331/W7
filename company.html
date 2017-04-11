@@ -460,15 +460,15 @@
 <div id="googleMap" style="height:400px;width:100%;"></div>
 <script>
 function myMap() {
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var myCenter = new google.maps.LatLng(25.083654, 121.389344);
+var mapProp = {center:myCenter, zoom:20, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 var marker = new google.maps.Marker({position:myCenter});
 marker.setMap(map);
 }
 </script>
 <!-- https://developers.google.com/maps/documentation/javascript/get-api-key?hl=zh-tw -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcaeSPn5k18caLwH7uA4JTbP5ikAYfc9k
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt88sBtPcRDoUFkLLB7zfJooKrf7_TNAs&callback=myMap
 
 content_copy
 &callback=myMap"></script>
